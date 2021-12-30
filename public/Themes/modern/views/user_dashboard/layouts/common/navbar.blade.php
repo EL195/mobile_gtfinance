@@ -4,7 +4,7 @@
         </button>
     </div>
 
-    <ul class="navbar-nav ml-auto pr-3">
+    <ul class="navbar-nav ml-auto ">
         <li class="nav-item active">
             <div class="dropdown mt-2 pr-4">
                 <a class="dropdown-toggle text-capitalize" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

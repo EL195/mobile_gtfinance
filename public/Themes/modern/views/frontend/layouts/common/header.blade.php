@@ -10,7 +10,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             @if($logo)
-                <a style="width: 205px;overflow: hidden;"  class="navbar-brand" href="@if (request()->path() != 'merchant/payment') {{ url('/') }} @else {{ '#' }} @endif">
+                <a style="overflow: hidden;"  class="navbar-brand" href="@if (request()->path() != 'merchant/payment') {{ url('/') }} @else {{ '#' }} @endif">
                     <img src="{{theme_asset('public/images/logos/'.$logo)}}" alt="logo" class="img-fluid">
                 </a>
             @else

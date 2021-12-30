@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             @if($logo)
-                <a style="width: 205px;overflow: hidden;"  class="navbar-brand" >
+                <a style="width: 155px;overflow: hidden;"  class="navbar-brand" >
                     <img src="http://money.camertour.net/assets/img/logo.png" alt="logo" class="" style="height:90px; width:110px;">
                 </a>
             @else
