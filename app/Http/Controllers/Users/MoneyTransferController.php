@@ -211,7 +211,6 @@ class MoneyTransferController extends Controller
                 return back()->withErrors(__($amountLimitCheck->getData()->success->message))->withInput();
             }
             //backend validation ends
-            
             $totalFee = $amountLimitCheck->getData()->success->totalFees;
          
             $wallet                          = Wallet::with(['currency:id,symbol'])->where(['id' => $request->wallet, 'user_id' => auth()->user()->id])->first(['currency_id', 'balance']);

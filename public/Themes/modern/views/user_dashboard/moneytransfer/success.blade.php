@@ -42,11 +42,14 @@
                                 <!-- check mail error message-->
                                 @if (!empty($errorMessage))
                                   <div class="text-center">
-                                    <p class="font-weight-600">@lang('message.dashboard.send-request.send.confirmation.money-send') @lang('message.dashboard.mail-not-sent').</p>
+                                    <p class="font-weight-600">@lang('message.dashboard.send-request.send.confirmation.money-send') <br/>@lang('message.dashboard.mail-not-sent').</p>
                                   </div>
                                 @else
                                   <div class="text-center">
-                                    <p class="font-weight-600">@lang('message.dashboard.send-request.send.confirmation.money-send').</p>
+                                    <p class="font-weight-600">@lang('message.dashboard.send-request.send.confirmation.money-send').
+                                    <br/>
+                                    @lang('message.dashboard.send-request.send.confirmation.folow-step')<br/>
+                                    <a href="">@lang('message.dashboard.send-request.send.confirmation.send-now')</a></p>
                                   </div>
                                 @endif
 
